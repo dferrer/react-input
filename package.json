@@ -9,7 +9,7 @@
     "build": "browserify -t [ babelify --presets [ es2015 react ] ] src/*.jsx  > dist/react-input.js"
   },
   "author": "Dylan Ferrer",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "classnames": "^2.2.3",
     "immutable": "^3.7.6",
